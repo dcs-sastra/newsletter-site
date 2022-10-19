@@ -1,0 +1,111 @@
+#root {
+  margin: 0 auto;
+}
+
+h1 {
+  color: white;
+}
+
+a {
+  text-decoration: none !important; 
+  font-size: larger;
+}
+
+#go-home {
+  padding: 2vh;
+  margin: 5vh;
+}
+
+.nav {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dcslogo {
+  height: 15vh;
+  margin-bottom: 2vh;
+  margin-right: 5vw;
+}
+
+.canvasparent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.canvasele {
+  box-shadow: 0 0 5px 10px #ADD8E6;
+}
+
+.canvascontrols {
+  padding: 1rem;
+}
+
+.pagelistall {
+  padding: 2vh;
+  background-color: #f5f5f5;
+  margin: 2vh 15vh;
+  border-radius: 20px;
+}
+
+body { 
+  background: url("assets/bg.png") no-repeat center center fixed !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .pagelistall {
+    padding: 2vh;
+    background-color: #f5f5f5;
+    margin: 2vh 2vh;
+    border-radius: 20px;
+  }
+  .list-item-text {
+    font-size: rfs-fluid-value(10rem);
+    font-weight: 600;
+  }
+
+  .list-item-image{
+    width: 50%;
+  }
+  
+}
+
+.list-item-text {
+  font-weight: 500;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+}
+.list-item-title {
+  font-weight: 600;
+  font-size: 2rem;
+  color: black;
+  -moz-transition: all .5ms linear;
+  -webkit-transition: all 2ms linear;
+  -ms-transition: all .5ms linear;
+  -o-transition: all .5ms linear;
+  
+}
+
+.list-item-title:hover{
+  color: #256D85;
+  transition: all 0.2s linear;
+}
+
+.list-item-date {
+  font-family: 'Comfortaa', cursive;
+  /*color: #5A5A5A;*/
+  color: #3C4048
+}
+
+.page-title {
+  font-family: 'Staatliches', cursive;
+}
