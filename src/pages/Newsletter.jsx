@@ -50,7 +50,7 @@ const Newsletter = () => {
     console.log(id);
     useEffect( () => {
         async function getDataFromDB(){
-            await fetch(`http://127.0.0.1:5000/get_newsletter?month=${id.month}&year=${id.year}`).then(r => r.json()).then(
+            await fetch(`https://v6w0qe.deta.dev/get_newsletter?month=${id.month}&year=${id.year}`).then(r => r.json()).then(
                 (r) => {
                     setData(r);
                     console.log(r)

@@ -15,7 +15,7 @@ const Home = () => {
     useEffect(() => {
         console.log("HELLO2");
         async function getDataFromDB(){
-            await fetch("http://127.0.0.1:5000/get_all_entries").then(r => r.json()).then(
+            await fetch("https://v6w0qe.deta.dev/get_all_entries").then(r => r.json()).then(
                 (r) => {
                     console.log("HELLO");
                     setData(r);
